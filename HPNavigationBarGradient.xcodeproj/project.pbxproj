@@ -1,0 +1,631 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E31671DD2643F15E003C24E6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E31671DC2643F15E003C24E6 /* AppDelegate.m */; };
+		E31671E32643F15E003C24E6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E31671E22643F15E003C24E6 /* ViewController.m */; };
+		E31671E62643F15E003C24E6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E31671E42643F15E003C24E6 /* Main.storyboard */; };
+		E31671E82643F161003C24E6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E31671E72643F161003C24E6 /* Assets.xcassets */; };
+		E31671EB2643F161003C24E6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E31671E92643F161003C24E6 /* LaunchScreen.storyboard */; };
+		E31671EE2643F161003C24E6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E31671ED2643F161003C24E6 /* main.m */; };
+		E31671F82643F161003C24E6 /* HPNavigationBarGradientTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E31671F72643F161003C24E6 /* HPNavigationBarGradientTests.m */; };
+		E31672032643F161003C24E6 /* HPNavigationBarGradientUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E31672022643F161003C24E6 /* HPNavigationBarGradientUITests.m */; };
+		E31672162643F273003C24E6 /* HPNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = E31672152643F273003C24E6 /* HPNavigationController.m */; };
+		E316721F2643F298003C24E6 /* UIImage+HPConvert.m in Sources */ = {isa = PBXBuildFile; fileRef = E316721E2643F298003C24E6 /* UIImage+HPConvert.m */; };
+		E31672252643F2FF003C24E6 /* HPNavigationBar.m in Sources */ = {isa = PBXBuildFile; fileRef = E31672242643F2FF003C24E6 /* HPNavigationBar.m */; };
+		E316722B2643F32C003C24E6 /* UIColor+HPHex.m in Sources */ = {isa = PBXBuildFile; fileRef = E316722A2643F32C003C24E6 /* UIColor+HPHex.m */; };
+		E31672502643FBD6003C24E6 /* HPViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E316724F2643FBD6003C24E6 /* HPViewController.m */; };
+		E3E25AAF2645140B006A8519 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E3E25AAE2645140B006A8519 /* SceneDelegate.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E31671F42643F161003C24E6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E31671D02643F15E003C24E6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E31671D72643F15E003C24E6;
+			remoteInfo = HPNavigationBarGradient;
+		};
+		E31671FF2643F161003C24E6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E31671D02643F15E003C24E6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E31671D72643F15E003C24E6;
+			remoteInfo = HPNavigationBarGradient;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E31671D82643F15E003C24E6 /* HPNavigationBarGradient.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HPNavigationBarGradient.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E31671DB2643F15E003C24E6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E31671DC2643F15E003C24E6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E31671E12643F15E003C24E6 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		E31671E22643F15E003C24E6 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		E31671E52643F15E003C24E6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E31671E72643F161003C24E6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E31671EA2643F161003C24E6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E31671EC2643F161003C24E6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E31671ED2643F161003C24E6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E31671F32643F161003C24E6 /* HPNavigationBarGradientTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HPNavigationBarGradientTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E31671F72643F161003C24E6 /* HPNavigationBarGradientTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HPNavigationBarGradientTests.m; sourceTree = "<group>"; };
+		E31671F92643F161003C24E6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E31671FE2643F161003C24E6 /* HPNavigationBarGradientUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HPNavigationBarGradientUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E31672022643F161003C24E6 /* HPNavigationBarGradientUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HPNavigationBarGradientUITests.m; sourceTree = "<group>"; };
+		E31672042643F161003C24E6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E31672142643F273003C24E6 /* HPNavigationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HPNavigationController.h; sourceTree = "<group>"; };
+		E31672152643F273003C24E6 /* HPNavigationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HPNavigationController.m; sourceTree = "<group>"; };
+		E316721D2643F298003C24E6 /* UIImage+HPConvert.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImage+HPConvert.h"; sourceTree = "<group>"; };
+		E316721E2643F298003C24E6 /* UIImage+HPConvert.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImage+HPConvert.m"; sourceTree = "<group>"; };
+		E31672232643F2FF003C24E6 /* HPNavigationBar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HPNavigationBar.h; sourceTree = "<group>"; };
+		E31672242643F2FF003C24E6 /* HPNavigationBar.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HPNavigationBar.m; sourceTree = "<group>"; };
+		E31672292643F32C003C24E6 /* UIColor+HPHex.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIColor+HPHex.h"; sourceTree = "<group>"; };
+		E316722A2643F32C003C24E6 /* UIColor+HPHex.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIColor+HPHex.m"; sourceTree = "<group>"; };
+		E316724E2643FBD6003C24E6 /* HPViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HPViewController.h; sourceTree = "<group>"; };
+		E316724F2643FBD6003C24E6 /* HPViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HPViewController.m; sourceTree = "<group>"; };
+		E3E25AAD2645140B006A8519 /* SceneDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		E3E25AAE2645140B006A8519 /* SceneDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E31671D52643F15E003C24E6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E31671F02643F161003C24E6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E31671FB2643F161003C24E6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E31671CF2643F15E003C24E6 = {
+			isa = PBXGroup;
+			children = (
+				E31671DA2643F15E003C24E6 /* HPNavigationBarGradient */,
+				E31671F62643F161003C24E6 /* HPNavigationBarGradientTests */,
+				E31672012643F161003C24E6 /* HPNavigationBarGradientUITests */,
+				E31671D92643F15E003C24E6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E31671D92643F15E003C24E6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E31671D82643F15E003C24E6 /* HPNavigationBarGradient.app */,
+				E31671F32643F161003C24E6 /* HPNavigationBarGradientTests.xctest */,
+				E31671FE2643F161003C24E6 /* HPNavigationBarGradientUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E31671DA2643F15E003C24E6 /* HPNavigationBarGradient */ = {
+			isa = PBXGroup;
+			children = (
+				E31671DB2643F15E003C24E6 /* AppDelegate.h */,
+				E31671DC2643F15E003C24E6 /* AppDelegate.m */,
+				E3E25AAD2645140B006A8519 /* SceneDelegate.h */,
+				E3E25AAE2645140B006A8519 /* SceneDelegate.m */,
+				E31671E12643F15E003C24E6 /* ViewController.h */,
+				E31671E22643F15E003C24E6 /* ViewController.m */,
+				E316724E2643FBD6003C24E6 /* HPViewController.h */,
+				E316724F2643FBD6003C24E6 /* HPViewController.m */,
+				E31672132643F24B003C24E6 /* HPNavigationController */,
+				E31671E42643F15E003C24E6 /* Main.storyboard */,
+				E31671E72643F161003C24E6 /* Assets.xcassets */,
+				E31671E92643F161003C24E6 /* LaunchScreen.storyboard */,
+				E31671EC2643F161003C24E6 /* Info.plist */,
+				E31671ED2643F161003C24E6 /* main.m */,
+			);
+			path = HPNavigationBarGradient;
+			sourceTree = "<group>";
+		};
+		E31671F62643F161003C24E6 /* HPNavigationBarGradientTests */ = {
+			isa = PBXGroup;
+			children = (
+				E31671F72643F161003C24E6 /* HPNavigationBarGradientTests.m */,
+				E31671F92643F161003C24E6 /* Info.plist */,
+			);
+			path = HPNavigationBarGradientTests;
+			sourceTree = "<group>";
+		};
+		E31672012643F161003C24E6 /* HPNavigationBarGradientUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E31672022643F161003C24E6 /* HPNavigationBarGradientUITests.m */,
+				E31672042643F161003C24E6 /* Info.plist */,
+			);
+			path = HPNavigationBarGradientUITests;
+			sourceTree = "<group>";
+		};
+		E31672132643F24B003C24E6 /* HPNavigationController */ = {
+			isa = PBXGroup;
+			children = (
+				E31672142643F273003C24E6 /* HPNavigationController.h */,
+				E31672152643F273003C24E6 /* HPNavigationController.m */,
+				E31672232643F2FF003C24E6 /* HPNavigationBar.h */,
+				E31672242643F2FF003C24E6 /* HPNavigationBar.m */,
+				E31672292643F32C003C24E6 /* UIColor+HPHex.h */,
+				E316722A2643F32C003C24E6 /* UIColor+HPHex.m */,
+				E316721D2643F298003C24E6 /* UIImage+HPConvert.h */,
+				E316721E2643F298003C24E6 /* UIImage+HPConvert.m */,
+			);
+			path = HPNavigationController;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E31671D72643F15E003C24E6 /* HPNavigationBarGradient */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E31672072643F161003C24E6 /* Build configuration list for PBXNativeTarget "HPNavigationBarGradient" */;
+			buildPhases = (
+				E31671D42643F15E003C24E6 /* Sources */,
+				E31671D52643F15E003C24E6 /* Frameworks */,
+				E31671D62643F15E003C24E6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HPNavigationBarGradient;
+			productName = HPNavigationBarGradient;
+			productReference = E31671D82643F15E003C24E6 /* HPNavigationBarGradient.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E31671F22643F161003C24E6 /* HPNavigationBarGradientTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E316720A2643F161003C24E6 /* Build configuration list for PBXNativeTarget "HPNavigationBarGradientTests" */;
+			buildPhases = (
+				E31671EF2643F161003C24E6 /* Sources */,
+				E31671F02643F161003C24E6 /* Frameworks */,
+				E31671F12643F161003C24E6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E31671F52643F161003C24E6 /* PBXTargetDependency */,
+			);
+			name = HPNavigationBarGradientTests;
+			productName = HPNavigationBarGradientTests;
+			productReference = E31671F32643F161003C24E6 /* HPNavigationBarGradientTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E31671FD2643F161003C24E6 /* HPNavigationBarGradientUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E316720D2643F161003C24E6 /* Build configuration list for PBXNativeTarget "HPNavigationBarGradientUITests" */;
+			buildPhases = (
+				E31671FA2643F161003C24E6 /* Sources */,
+				E31671FB2643F161003C24E6 /* Frameworks */,
+				E31671FC2643F161003C24E6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E31672002643F161003C24E6 /* PBXTargetDependency */,
+			);
+			name = HPNavigationBarGradientUITests;
+			productName = HPNavigationBarGradientUITests;
+			productReference = E31671FE2643F161003C24E6 /* HPNavigationBarGradientUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E31671D02643F15E003C24E6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1220;
+				TargetAttributes = {
+					E31671D72643F15E003C24E6 = {
+						CreatedOnToolsVersion = 12.2;
+					};
+					E31671F22643F161003C24E6 = {
+						CreatedOnToolsVersion = 12.2;
+						TestTargetID = E31671D72643F15E003C24E6;
+					};
+					E31671FD2643F161003C24E6 = {
+						CreatedOnToolsVersion = 12.2;
+						TestTargetID = E31671D72643F15E003C24E6;
+					};
+				};
+			};
+			buildConfigurationList = E31671D32643F15E003C24E6 /* Build configuration list for PBXProject "HPNavigationBarGradient" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E31671CF2643F15E003C24E6;
+			productRefGroup = E31671D92643F15E003C24E6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E31671D72643F15E003C24E6 /* HPNavigationBarGradient */,
+				E31671F22643F161003C24E6 /* HPNavigationBarGradientTests */,
+				E31671FD2643F161003C24E6 /* HPNavigationBarGradientUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E31671D62643F15E003C24E6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E31671EB2643F161003C24E6 /* LaunchScreen.storyboard in Resources */,
+				E31671E82643F161003C24E6 /* Assets.xcassets in Resources */,
+				E31671E62643F15E003C24E6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E31671F12643F161003C24E6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E31671FC2643F161003C24E6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E31671D42643F15E003C24E6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E31671E32643F15E003C24E6 /* ViewController.m in Sources */,
+				E316721F2643F298003C24E6 /* UIImage+HPConvert.m in Sources */,
+				E31671DD2643F15E003C24E6 /* AppDelegate.m in Sources */,
+				E31672502643FBD6003C24E6 /* HPViewController.m in Sources */,
+				E3E25AAF2645140B006A8519 /* SceneDelegate.m in Sources */,
+				E31672162643F273003C24E6 /* HPNavigationController.m in Sources */,
+				E31672252643F2FF003C24E6 /* HPNavigationBar.m in Sources */,
+				E31671EE2643F161003C24E6 /* main.m in Sources */,
+				E316722B2643F32C003C24E6 /* UIColor+HPHex.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E31671EF2643F161003C24E6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E31671F82643F161003C24E6 /* HPNavigationBarGradientTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E31671FA2643F161003C24E6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E31672032643F161003C24E6 /* HPNavigationBarGradientUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E31671F52643F161003C24E6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E31671D72643F15E003C24E6 /* HPNavigationBarGradient */;
+			targetProxy = E31671F42643F161003C24E6 /* PBXContainerItemProxy */;
+		};
+		E31672002643F161003C24E6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E31671D72643F15E003C24E6 /* HPNavigationBarGradient */;
+			targetProxy = E31671FF2643F161003C24E6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E31671E42643F15E003C24E6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E31671E52643F15E003C24E6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E31671E92643F161003C24E6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E31671EA2643F161003C24E6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E31672052643F161003C24E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		E31672062643F161003C24E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E31672082643F161003C24E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 49T87S5RLN;
+				INFOPLIST_FILE = HPNavigationBarGradient/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hhp.HPNavigationBarGradient;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E31672092643F161003C24E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 49T87S5RLN;
+				INFOPLIST_FILE = HPNavigationBarGradient/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hhp.HPNavigationBarGradient;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E316720B2643F161003C24E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 49T87S5RLN;
+				INFOPLIST_FILE = HPNavigationBarGradientTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hhp.HPNavigationBarGradientTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HPNavigationBarGradient.app/HPNavigationBarGradient";
+			};
+			name = Debug;
+		};
+		E316720C2643F161003C24E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 49T87S5RLN;
+				INFOPLIST_FILE = HPNavigationBarGradientTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hhp.HPNavigationBarGradientTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HPNavigationBarGradient.app/HPNavigationBarGradient";
+			};
+			name = Release;
+		};
+		E316720E2643F161003C24E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 49T87S5RLN;
+				INFOPLIST_FILE = HPNavigationBarGradientUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hhp.HPNavigationBarGradientUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HPNavigationBarGradient;
+			};
+			name = Debug;
+		};
+		E316720F2643F161003C24E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 49T87S5RLN;
+				INFOPLIST_FILE = HPNavigationBarGradientUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hhp.HPNavigationBarGradientUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HPNavigationBarGradient;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E31671D32643F15E003C24E6 /* Build configuration list for PBXProject "HPNavigationBarGradient" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E31672052643F161003C24E6 /* Debug */,
+				E31672062643F161003C24E6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E31672072643F161003C24E6 /* Build configuration list for PBXNativeTarget "HPNavigationBarGradient" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E31672082643F161003C24E6 /* Debug */,
+				E31672092643F161003C24E6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E316720A2643F161003C24E6 /* Build configuration list for PBXNativeTarget "HPNavigationBarGradientTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E316720B2643F161003C24E6 /* Debug */,
+				E316720C2643F161003C24E6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E316720D2643F161003C24E6 /* Build configuration list for PBXNativeTarget "HPNavigationBarGradientUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E316720E2643F161003C24E6 /* Debug */,
+				E316720F2643F161003C24E6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E31671D02643F15E003C24E6 /* Project object */;
+}
